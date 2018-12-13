@@ -1,4 +1,4 @@
-class SortList:
+class Saote:
     def __init__(self, ls: list):
         self.data = ls
         self.result = []
@@ -33,3 +33,5 @@ class SortList:
         sorted(result, key=lambda x: x[1], reverse=True)
         self.result = result
         return result
+    def setDict(self,dic:dict):
+        self.dic=dic
